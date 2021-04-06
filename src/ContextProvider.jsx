@@ -1,4 +1,4 @@
-import { memo, useContext } from "react";
+const { memo, useContext } = require('react');
 import { __RouterContext as RouterContext } from 'react-router';
 import usePrevious from './hooks/usePrevious';
 import { FromRouteContext } from './Contexts';

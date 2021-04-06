@@ -1,6 +1,7 @@
 
-import React, { useState, useContext } from 'react'
-import { memo, useCallback, useEffect } from "react";
+const React = require('react');
+const { useState, useContext } = require('react');
+const { memo, useCallback, useEffect } = require('react');
 import { Redirect, Route } from 'react-router-dom'
 import { __RouterContext as RouterContext } from 'react-router';
 import { FromRouteContext } from './Contexts';
