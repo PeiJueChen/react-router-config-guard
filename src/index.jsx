@@ -1,14 +1,9 @@
-import { setRouterEach as setMethod, renderRoutes as renderMethod, matchRoutes as matchMethod} from './ReactRouterConfigGuard';
-// import usePrevious from './hooks/usePrevious';
+import { setRouterEach, renderRoutes, matchRoutes } from './ReactRouterConfigGuard.jsx';
+import usePrevious from './hooks/usePrevious.jsx';
 
-// export {
-//     setRouterEach,
-//     renderRoutes,
-//     matchRoutes,
-//     usePrevious
-// }
-
-export const setRouterEach = setMethod;
-export const renderRoutes = renderMethod;
-export const matchRoutes = matchMethod;
-// exports.usePrevious = usePrevious;
+export {
+    setRouterEach,
+    renderRoutes,
+    matchRoutes,
+    usePrevious
+}

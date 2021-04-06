@@ -1,7 +1,8 @@
-const React = require('react');
-import { Switch } from 'react-router-dom';
-import RouterGuard from './RouterGuard';
-import ContextProvider from './ContextProvider';
+
+import React from "react";
+import { Switch } from "react-router";
+import RouterGuard from './RouterGuard.jsx';
+import ContextProvider from './ContextProvider.jsx';
 
 const reactRouter = require('react-router');
 

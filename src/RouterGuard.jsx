@@ -1,10 +1,10 @@
 
-const React = require('react');
-const { useState, useContext } = require('react');
-const { memo, useCallback, useEffect } = require('react');
-import { Redirect, Route } from 'react-router-dom'
+import React from "react";
+import { Redirect, Route } from "react-router";
+import { useState, useContext } from "react";
+import { memo, useCallback, useEffect } from "react"
 import { __RouterContext as RouterContext } from 'react-router';
-import { FromRouteContext } from './Contexts';
+import { FromRouteContext } from './Contexts.jsx';
 
 
 // const from = createContext(FromRouteContext);
