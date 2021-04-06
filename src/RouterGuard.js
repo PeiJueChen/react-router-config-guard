@@ -144,7 +144,7 @@ const RouterGuard = memo(function (props) {
             })
         }
 
-        // eslint-disable-next-line react-hooks/exhaustive-deps
+// eslint-disable-next-line react-hooks/exhaustive-deps
     }, [hook])
 
     if (!routeGuardFinished) {

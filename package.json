@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "Static route config and guard for React Router, base on react-router-config ",
   "main": "index.js",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.config.js",
     "dev": "webpack-dev-server --config webpack.dev.config.js",
@@ -16,6 +13,9 @@
     "type": "git",
     "url": "git@github.com:PeiJueChen/react-router-config-guard.git"
   },
+  "keywords": [
+    "react router config guard"
+  ],
   "author": "Jason Chan",
   "license": "ISC",
   "dependencies": {

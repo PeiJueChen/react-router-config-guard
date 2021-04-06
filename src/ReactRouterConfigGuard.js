@@ -26,31 +26,8 @@ var _extends = function () {
 
 
 var routerBeforeEach;
-//  = (to, from, next) => {
-//     console.log("routerBeforeEach to:", to, from);
-//     if (to && to.meta && to.meta.auth) {
-//         // setTimeout(() => {
-//         //     next({
-//         //         path: '/',
-//         //         replace: true
-//         //     });
-//         // }, 800);
-//         next({
-//             path: '/',
-//             replace: true
-//         });
-
-//     } else {
-//         next();
-//     }
-// }
 
 var routerAfterEach;
-//  = (to) => {
-//     console.log("JJ ~ file: react-router-config.js ~ line 44 ~ routerAfterEach ~ to", to)
-
-// }
-
 
 export const setRouterEach = (before, after) => {
     routerBeforeEach = before;
@@ -103,36 +80,6 @@ export function renderRoutes(routes, extraProps = {}, switchProps = {}) {
 
     )
 }
-
-// export function renderRoutes(routes, extraProps = {}, switchProps = {}) {
-//     if (extraProps === void 0) {
-//         extraProps = {};
-//     }
-
-//     if (switchProps === void 0) {
-//         switchProps = {};
-//     }
-//     if (!routes) return null;
-//     return (
-//         React.createElement(reactRouter.Switch, switchProps, routes.map(function (route, i) {
-
-//             return React.createElement(reactRouter.Route, {
-//                 key: route.key || i,
-//                 path: route.path,
-//                 exact: route.exact,
-//                 strict: route.strict,
-//                 render: function render(props) {
-//                     return route.render ? route.render(_extends({}, props, {}, extraProps, {
-//                         route: route
-//                     })) : React.createElement(route.component, _extends({}, props, extraProps, {
-//                         route: route
-//                     }));
-//                 }
-//             })
-
-//         }))
-//     )
-// }
 
 export function matchRoutes(routes, pathname,
     /*not public API*/

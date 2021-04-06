@@ -14,7 +14,7 @@ function usePrevious(value) {
         ref.current = value;
     });
 
-    // 可用于在 React 开发者工具中显示自定义 hook 的标签。
+    // Can be used to display custom hook tags in React developer tools. 
     // useDebugValue(ref.current);
 
     return ref.current;
