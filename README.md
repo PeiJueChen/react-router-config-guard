@@ -1,9 +1,12 @@
-### [Base on](https://www.npmjs.com/package/react-router-config)
+### Title
+> Static route config and guard for React Router, base on react-router-config 
+  
+### Base on [react-router-config](https://www.npmjs.com/package/react-router-config)
 
 ### install
 
 ```js
-    $ npm install --save react-router-config-guard
+   $ npm install --save react-router-config-guard
 ```
 
 ### usage
