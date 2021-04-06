@@ -4,9 +4,6 @@
   "description": "Static route config and guard for React Router, base on react-router-config ",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.config.js",
-    "dev": "webpack-dev-server --config webpack.dev.config.js",
-    "build": "webpack --config webpack.prod.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

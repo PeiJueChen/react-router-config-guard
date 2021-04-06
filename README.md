@@ -1,5 +1,11 @@
 ### [Base on](https://www.npmjs.com/package/react-router-config)
 
+### install
+
+```js
+    $ npm install --save react-router-config-guard
+```
+
 ### usage
 
 ``` js
